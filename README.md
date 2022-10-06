@@ -1,1 +1,1 @@
-# HCDE-533
+HCDE 598 Special Topics Digital Fabrication
