@@ -1,0 +1,90 @@
+
+.pic img{
+	height: 300px;
+	width: 300px;
+	/*border-radius: 100%;*/
+
+	text-align: center;
+
+}
+
+.pic{
+	padding-top: 50px;
+
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+	float: left;
+}
+#about{
+	text-align: center;
+	line-height: 15px;
+	padding-top: 50px;
+	width:75%;
+	margin: 0 auto;
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+
+#icons{
+	text-align: center;
+	padding-top: 40px;
+}
+
+
+a:hover li{
+	background-color: #16a085;
+	  transition: 0.5s;
+	
+}
+
+li:hover{
+  color: white;
+}
+
+i{
+	color: #16a085;
+}
+
+a:hover i{
+	color: #0f705d;
+}
+
+.bread:hover{
+	color: black;
+}
+
+p.list{
+
+	text-align: justify;
+}
+
+.bio{
+	margin: 0 auto;
+     width: 500px; 
+
+	/*padding-right: 250px;*/
+	overflow: hidden;
+	padding-top: 0px;
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+	/*float: right;*/
+	text-align: left;
+
+
+	
+
+}
+.bio img{
+	height: 25px;
+	width: 25px;
+
+
+}
+#myp{
+	line-height: 150%;
+}
+	
+#line{
+	text-align: center;
+}
+
+
+
+

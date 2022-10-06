@@ -1,0 +1,396 @@
+/* front page */
+
+/** {
+	
+
+  margin: 0;
+  padding: 0;
+  
+}*/
+body /***/{
+/*font-family:'QuickSand'!important;*/
+/*font-family: 'Open Sans', sans-serif;*/
+font-family: 'Rubik', sans-serif;
+margin:0;
+color: #232323;
+padding:0;
+}
+
+body i {
+font-family:'FontAwesome'!important;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none; /* Remove outline */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 100%; /* Rounded corners */
+  font-size: 30px; /* Increase font size */
+  background-color: transparent;
+  width: 5%;
+}
+
+#myBtn:hover {
+	transform: scale(1.5);
+    transition: transform 400ms ease-out;
+
+}
+
+#bioText {
+	color:#595858;
+	line-height: 35px;
+	margin-top: 0px;
+	font-size: 18px;
+}
+
+
+#top-bar {
+
+margin-top: -50px;
+
+}
+
+.name{
+	/*text-align: center;*/
+	/*font-family: "Sacramento";*/
+	font-size: 40px;/*60px;*/
+	/*color: #CC9DD1;*/
+	color: #1a1a1a;
+
+	margin-bottom: 50px;
+	padding-left: 100px;
+	width: 100%;
+	margin-top: -20px;
+	font-family: 'Mochiy Pop P One', sans-serif;
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+}
+.name:hover {
+	transition: 0.5s;
+	opacity: 0.5;
+}
+
+#nameDiv{
+	float: left;
+
+}
+
+#links{
+	margin-top: 90px;
+	font-size: 20px;
+	width: 95%;
+	font-family: 'Mochiy Pop P One', sans-serif;
+/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+
+}
+
+#shortBio{
+	/*margin-top:100px;
+
+	width: 70%;
+	margin:auto;*/
+/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+text-align: center;
+	line-height: 15px;
+	padding-top: 50px;
+	width:75%;
+	margin: 0 auto;
+
+
+}
+
+
+#bioContainer{
+	width: 100%;
+	background-color: #f4f4f3;
+	height: 450px;
+}
+
+#down-arrow {
+	width: 3%;
+	height: 3%;
+	  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#down-arrow:hover {
+		transform: scale(1.3);
+    transition: transform 400ms ease-out;
+}
+
+#leftDiv {
+	float:left;
+	width: 40%;
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+
+}
+
+#rightDiv {
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+	overflow: hidden;
+	padding-left: 50px;
+	/*position: relative;
+	width: 50%;*/
+	
+
+}
+
+/*#rightDiv #rightText {
+	position: absolute;
+}*/
+
+
+
+/*#blobPic {
+	width: 90%;
+	height: auto;
+}*/
+
+li{
+	/* might have to chnage this to words later*/
+	font-weight: bold;
+	display: inline;
+
+	
+	padding: 10px;
+	
+}
+
+a:hover li{
+	background-color: #CC9DD1;
+	transition: 0.5s;
+	
+}
+
+li:hover{
+  color: white;
+}
+
+.menu{
+	text-align: center;
+}
+
+.profile{
+	margin: auto;
+}
+.profile img{
+	border-radius: 100%;
+	height: 450px;
+	width: 450px;
+
+}
+
+.button{
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+
+.pic img{
+	height: 300px;
+	width: 300px;
+	/*border-radius: 100%;*/
+	display: block;
+	margin: 0 auto;
+	float: left;
+	padding-left: 80px;
+
+}
+.about{
+	text-align: center;
+}
+
+#icons{
+	text-align: center;
+	padding: 20px;
+
+}
+i{
+	color: black;
+}
+
+a:hover i{
+	opacity: 0.5;
+	transition: 0.5s;
+}
+
+#aboutTitle{
+	color: #16a085;
+	font-size: 50px;
+	margin-top: 250px;
+	padding-bottom: 20px;
+}
+
+.link{
+	color: black;
+}
+
+.link:hover {
+	transition: 0.5s;
+	/*color: #CC9DD1;*/
+	opacity: 0.5;
+}
+
+/*.bio img{
+	height: 25px;
+	width: 25px;
+
+}
+*/
+
+.bio{
+	margin: 0 auto;
+     width: 500px; 
+
+	/*padding-right: 250px;*/
+	overflow: hidden;
+	padding-top: 0px;
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+	float: right;
+	text-align: left;
+
+
+	
+
+}
+.bio img{
+	height: 25px;
+	width: 25px;
+
+
+}
+#container{
+	width: 700px;
+	margin: auto;
+}
+#first{
+	width: 300px;
+	float: left;
+	height: 300px
+	background-color: blue;
+	padding-left: 100px;
+}
+#first h1{
+	font-size: 50px;
+	color: #f1c40f;
+
+}
+
+#second{
+	width: 300px;
+	float: right;
+	height: 300px;	
+}
+#second h1{
+	font-size: 50px;
+	color: #ffcce6;
+}
+
+#clear{
+	clear: both;
+}
+
+/* For work widgets */
+
+
+table{
+
+	text-align: center;
+	margin: 0 auto;
+	/*margin-top: 100px;*/
+}
+img{
+	height: 312.5px;
+	width: 500px;
+
+}
+td{
+	text-align: center;
+	border: 10px solid transparent;
+
+}
+td:hover .active{
+	/*border-color: #9befa1;
+	transition: 0.5s;*/
+
+	transform: scale(1.04);
+    transition: transform 400ms ease-out;
+}
+
+.projImg{
+	/*border-top-left-radius: 25px;
+	border-top-right-radius: 25px;*/
+	transition: transform 400ms ease-out;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1);
+}
+
+
+
+.inactive{
+	opacity: 0.2;
+}
+
+.widgets{
+	/*box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.1);*/
+	  position: relative;
+	  padding:20px;
+
+	/*border-radius: 25px;*/
+}
+
+/*.widgets:hover .infoText {
+  opacity: 1;
+}*/
+
+.infoText {
+	color:#595858;
+	line-height: 30px;
+	margin-top: 0px;
+	text-align: left;
+	font-family: 'Mochiy Pop P One', sans-serif;
+
+	/*position: absolute; 
+ 	bottom: 0; 
+  	background: rgb(0, 0, 0);
+  	background: rgba(0, 0, 0, 0.8); 
+  	color: #f1f1f1; 
+  	width: 300px;
+  	transition: .5s ease;
+  	opacity:0;
+  	color: white;
+  	font-size: 20px;
+  	padding: 20px;
+  	text-align: left;*/
+}
+
+.infoSubtext {
+	text-align: left;
+	margin-top: -15px;
+	font-size: 14px;
+}
+
+.hoverLink:hover {
+	transition: 0.5s;
+	opacity: 0.5;
+}
+
+#about{
+	text-align: center;
+	line-height: 15px;
+	padding-top: 50px;
+	width:75%;
+	margin: 0 auto;
+	/*border: 1px solid rgba(0, 0, 0, 0.3);*/
+}

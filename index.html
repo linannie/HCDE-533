@@ -1,42 +1,242 @@
-<!DOCTYPE html> 
-<html> 
-    <head> 
-        <meta charset="utf-8"> 
-        <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
+<!DOCTYPE html>
 
-        <title>Example Student's HCDE 598 Digital Fabrication Page!</title> 
+<html>
+	<head>
+		<meta charset="utf-8">
+    	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+		<title>Annie Lin</title>
+		<link rel="icon" href="pics/logoAnnie.png">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&family=Mochiy+Pop+P+One&family=Rubik:wght@300;600&display=swap" rel="stylesheet">
 
-        <link href="style.css" media="screen" rel="stylesheet" type="text/css" />
 
-    </head> 
-    <body> 
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<script type="text/javascript" src="js/script.js" ></script>
+		<script src="https://use.fontawesome.com/ad999fa51e.js"></script>
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<!--<img src="pics/annie.JPG">-->
+	<body>
 
-        <div class="header">
-            <h1>Example Student's HCDE 598 Digital Fabrication Page!</h1>
-            <p>
-            <img src="red-panda.jpg" width=400></a>
-            </p>
-            <p>
-            My name is Example Student! I'm an HCDE masters student and excited to learn the following things in this class: how to be a real student, and how to change my name.
-            </p>
-        </div>
-        <div class="assignments">
+		<button onclick="topFunction()" id="myBtn" title="Go to top">
+			<i class="fas fa-chevron-up"></i>
+		</button>
 
-            <div class="assignment">
-              <a href="assignment1.html"><h2>Assignment 1: Blink!</h2>
-                  <img src="red-panda.jpg" width=250></a>
-                <p>
-		Assignment 1 was a panda!
-                </p>
-            </div>
+		<!--Navigation bar-->
+		<script src="js/nav.js"></script>
+		<br><br>
+		<div id="bioContainer"><br>
+			<div id = "shortBio">
+		
+				<div class="pic">
+					<img src="pics/IMG_2023.JPG">
+				</div>
+			
+				<div class="bio">
+					<p id="myp">
+						<strong>Hi I'm Annie!</strong> 
+						I’m currently a second year Master's student at UW HCDE. Previously, I graduated from UC Davis in 2019, majored in computer science 👩🏻‍💻, and minored in psychology 🧠. <br><br>
 
-            <div class="assignment">
-              <a href="assignment2.html"><h2>Assignment 2: Fade!</h2>
-                  <img src="red-panda.jpg" width=250></a>
-                <p>
-		Assignment 2 was a panda!
-                </p>
-            </div>
+						With my interdisciplinary background, I can understand how technology is implemented behind products and how cognition and behavior play roles in creating meaningful and usable experiences. I'm interested in bridging these fields through HCI, and I hope to explore my interests through a career in design. <br><br>
+
+						In this class, I hope to learn how to design + fabricate physical products and understand the differences in process between digital and physical design. I'd also love to understand not only how to use fabrication tools like 3D printers, mills, and laser cutters, but also learn software to model 3D designs before making them physical. I don't have much knowledge in digital fabrication so for my peers, I'd like to teach them how I think when I'm creating 3D designs. Other than fabrication and design, my CS knowledge can be helpful for others learning Git. 
+					</p>
+					<div style="text-align:center">
+						<p>
+							<img src="pics/davis.jpg"> &nbsp;&nbsp;&nbsp;&nbsp;
+				 			<img id="hikePic" src="pics/005-woods.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+				 			<img id="frontPic" src="pics/004-coding.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+				 			<img id="potatoPic" src="pics/006-potato.png">&nbsp;&nbsp;&nbsp;&nbsp;
+				  			<img id="teaPic" src="pics/003-tea.png"> 
+						</p>
+					</div>
+				</div>
+				
+			</div>
+
+		
+
+<!---->
+
+		
+	
+		</div><br>
+		<div id="arrowContainer">
+					<a title ="Work" href = "#allProj"><img id="down-arrow" src="pics/down-arrow.png"></a>
+				</div>
+
+
+
+		<div id="tableContainer">
+		<table id="allProj" >
+		<tr class="row" id="r">
+			
+			<td>
+				<!--href - uxProjects/mantis/mantis.html-->
+				<div class="widgets">
+				<a title="Assignment 1" href=""><img class="projImg active" src="pics/laser.jpg"></a>
+				<p class="infoText">Assignment 1</p>
+				<p class="infoSubtext">Modeling and Laser Cutting!</p>
+				</div>
+			</td>
+			<td>
+				<div class="widgets">
+				<!--<a title="Assignment 2" href="">--><img class="projImg inactive" src="pics/wip.jpg">
+				<div><p class="infoText">Assignment 2</p></div>
+				<p class="infoSubtext">Getting Started with 3D Printing</p>
+				</div>
+			</td>
+				
+			
+			
+			
+		</tr>
+		<br>
+		<tr class="row" id="r">
+			<td>
+				<div class="widgets">
+				<!--<a title="Assignment 3" href="uxProjects/beanstalk/bean.html">--><img class="projImg inactive" src="pics/wip.jpg"><!--</a>-->
+				<div><p class="infoText">Assignment 3</p></div>
+				<p class="infoSubtext">Parametric Modeling with Grasshopper</p>
+				</div>
+			</td>
+			
+			<td>
+				<div class="widgets">
+				<!--<a title="Assignment 4" href="uxProjects/ringly/ringly.html">--><img class="projImg inactive" src="pics/wip.jpg"></a>
+				<div><p class="infoText">Assignment 4</p></div>
+				<p class="infoSubtext">Getting Meshy! And Lamps!</p>
+				</div>
+				
+			</td>
+
+				
+			
+			
+			
+		</tr>
+		<br>
+		<tr class="row" id="r">
+			<td>
+				<div class="widgets">
+				<!--<a title="Assignment 5" href="uxProjects/spotify/spot.html">--><img class="projImg inactive" src="pics/wip.jpg">
+				<div><p class="infoText">Assignment 5</p></div>
+				<p class="infoSubtext">Lamps part 2! And molding and casting part 1!</p>
+			</div>
+				
+			</td>
+			<td>
+				<div class="widgets">
+				<!--<a target="_blank" title="Assignment 6" href="https://linannie.github.io/moodsic/">--><img class="projImg inactive" src="pics/wip.jpg"></a>
+				<div><p class="infoText">Assignment 6</p></div>
+				<p class="infoSubtext">Molding and casting pt 2!</p>
+				</div>
+			</td>
+
+			
+			
+		</tr>
+		<br>
+		</tr>
+		<tr class="row" id="r">
+			<td>
+				<div class="widgets">
+				<!--<a target="_blank" title="Assignment 6" href="https://devpost.com/software/snapdoc">--><img class="projImg inactive" src ="pics/wip.jpg">
+				<div><p class="infoText">Assignment 7</p></div>
+				<div><p class="infoSubtext">Final Project Proposal</p></div>
+				</div>
+				
+			</td>
+		
+			
+			<td>
+				<div class="widgets">
+				<!--<a target="_blank" title="Assignment 8" href="http://mattdea.github.io/meerkat/">--><img class="projImg inactive" src="pics/wip.jpg">
+				<div><p class="infoText">Assignment 8</p></div>
+				<div><p class="infoSubtext">Final Project!</p></div>
+				</div>
+			</td>
+			
+		</tr>
+
+		
+
+		
+	</table>
 	</div>
-    </body>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	<script>
+		// scroll reveal for as many rows as you want!
+		window.sr = ScrollReveal();
+		var cls = document.getElementsByClassName("row");
+
+		function show(){
+			for(var i = 0; i < cls.length; i++){
+				cls[i].id = "r" + i;
+			}
+		}
+		show();
+		for(var i = 0; i < cls.length; i++){
+			sr.reveal('#'+ cls[i].id, {duration: 1000});
+		}
+
+		//Get the button:
+		mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+
+		abtButton = document.getElementById("abtButton");
+		workButton = document.getElementById("workButton");
+
+		abtButton.onclick = changeColorAbt;
+		workButton.onclick = changeColorWork; 
+
+
+    	function onClickAbout() {
+        
+        	abtButton.style.color = "purple";
+            workButton.style.color = "#4F4E4E";
+        	return false;
+    	}   
+        function onClickWork() {
+        
+            workButton.style.color = "#0f705d";
+        	return false;
+    	}   
+
+
+
+	</script>
+		
+		
+
+	</body>
+<footer style="text-align: center; padding: 50px">
+
+	<div id="icons">
+
+					<a target="_blank" title ="GitHub" href = "https://github.com/linannie"><i class="fa fa-spin fa-fw fa-lg fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a target="_blank" title="LinkedIn" href ="https://www.linkedin.com/in/annie-lin-77a030125"><i class="fa fa-fw fa-lg fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a title = "Email me!" href="mailto:annie.lin42@gmail.com?Subject=Hello%20again" target="_top"><i class="fa fa-fw fa-lg fa-envelope-o" aria-hidden="true"></i></a> 
+				<!--	<a target="_blank" title="My blog" href="https://linannie.wordpress.com/"><i class="fa fa-fw fa-lg fa-wordpress" aria-hidden="true"></i></a>-->
+				</div>
+				© Annie Lin 2022
+	
+</footer>
+
 </html>

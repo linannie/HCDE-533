@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>About – Annie Lin</title>
+	
+	<meta charset="utf-8">
+   <meta http-equiv="X-UA-Compatible" content="chrome=1">
+   <meta name="viewport" content="width=device-width">
+	<link rel="icon" href="pics/logoAnnie.png">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&family=Mochiy+Pop+P+One&family=Rubik:wght@300;600&display=swap" rel="stylesheet">
+	<script src="https://use.fontawesome.com/ad999fa51e.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+	<!--
+	<h1>about me</h1>
+	
+	<div class = "menu">
+			<ul>
+				<a class= "button" style= "text-decoration:none;" rel= "about me!" href= "index.html"><li>home</li></a>
+				<a class= "button" style= "text-decoration:none;" href= "dev.html"><li>development</li></a>
+				<a class= "button" style= "text-decoration:none;" href= "port.html"><li>ux research</li></a>
+				<a class= "button" style= "text-decoration:none;" href= "memes.html"><li>memes</li></a>
+				
+			</ul>		
+		</div> 
+
+	-->
+	<div id="top-bar">
+
+			<div id="nameDiv">
+			<a href="../../index.html" style= "text-decoration:none;"><h1 class="name">al</h1></a>
+			</div>
+
+			<div id="links">
+			<p style="text-align:right;">
+				<a class="link" rel="Projects" href="index.html#allProj" style= "text-decoration:none;">work</a>
+				&nbsp;&nbsp;&nbsp;
+
+				<a class="link" rel= "about me!" href= "about.html" style= "text-decoration:none; opacity: 0.5;"> about</a>&nbsp;&nbsp;&nbsp;&nbsp;
+				<a class="link" target="_blank" rel= "Resume" href= "files/uxRes2021.pdf" style= "text-decoration:none;"> resume</a></p>
+
+			
+
+			</div>
+	</div>
+
+	
+	<div id = "about">
+			<div class="pic">
+				<img src="pics/me.JPG">
+			</div>
+			
+			<div class="bio">
+				<p id="myp">
+					<strong>Hi I'm Annie!</strong> 
+					I’m currently a first year student at UW HCDE. Previously, I graduated from UC Davis in 2019, majored in computer science, and minored in psychology. <br><br>With my interdisciplinary background, I can understand how technology is implemented behind products and how cognition and behavior play roles in creating meaningful and usable experiences.
+					 I'm interested in bridging these fields through HCI, and I hope to explore my interests through a career in research and design. <br><br>
+
+					I am also a hiking enthusiast, front-end fanatic, potato lover, and sourdough baker (check out my <b><a target="_blank" class="bread" href="https://www.instagram.com/endlesscrumbs/" style="text-decoration: none; color:#C4810D "> bread diary</a></b>). 
+					 Please feel free to reach out to me. Thanks for tuning in!
+				</p>
+				<div style="text-align:center">
+				<p>
+				<img src="pics/davis.jpg"> &nbsp;&nbsp;&nbsp;&nbsp;
+				 <img id="hikePic" src="pics/005-woods.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+				 <img id="frontPic" src="pics/004-coding.png"> &nbsp;&nbsp;&nbsp;&nbsp;
+				 <img id="potatoPic" src="pics/006-potato.png">&nbsp;&nbsp;&nbsp;&nbsp;
+				  <img id="teaPic" src="pics/003-tea.png"> 
+				</p>
+				</div>
+			</div>
+	</div>
+	<script>
+		// scroll reveal for as many rows as you want!
+
+		//Get the button:
+		mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+
+
+
+
+
+
+	</script>
+</body>
+<footer style="text-align: center; padding: 50px">
+	<hr>
+	<div id="icons">
+
+					<a target="_blank" title ="GitHub" href = "https://github.com/linannie"><i class="fa fa-spin fa-fw fa-lg fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a target="_blank" title="LinkedIn" href ="https://www.linkedin.com/in/annie-lin-77a030125"><i class="fa fa-fw fa-lg fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a title = "Email me!" href="mailto:annie.lin42@gmail.com?Subject=Hello%20again" target="_top"><i class="fa fa-fw fa-lg fa-envelope-o" aria-hidden="true"></i></a> 
+				<!--	<a target="_blank" title="My blog" href="https://linannie.wordpress.com/"><i class="fa fa-fw fa-lg fa-wordpress" aria-hidden="true"></i></a>-->
+				</div>
+	© Annie Lin 2021
+</footer>
+</html>
