@@ -103,6 +103,10 @@ table {
 	margin: 0 auto;
 	font-size: 14px;
 }
+.imgTable{
+	margin-left: auto;
+	margin-right: auto;
+}
 img{
 	height: 312.5px;
 	width: 500px;
