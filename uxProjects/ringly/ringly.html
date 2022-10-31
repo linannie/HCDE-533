@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Ringly Analysis</title>
+	<title>Assignment 4</title>
 	<meta charset="utf-8">
    	<meta http-equiv="X-UA-Compatible" content="chrome=1">
    	<meta name="viewport" content="width=device-width">
 
 
 	<link rel="icon" href="../../pics/001-dog.png">
-	<link rel="stylesheet" type="text/css" href="../mantis/mantis.css">
+	<link rel="stylesheet" type="text/css" href="../A1/A1.css">
 	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&family=Mochiy+Pop+P+One&family=Rubik:wght@300;600&display=swap" rel="stylesheet">
 
 	<script src="https://use.fontawesome.com/ad999fa51e.js"></script>
@@ -31,70 +31,169 @@
 	<div id="top-bar">
 
 			<div id="nameDiv">
-			<a href="../../index.html" style= "text-decoration:none;"><h1 class="name">al</h1></a>
+			<a href="../../index.html" style= "text-decoration:none;"><h1 class="name">annie lin</h1></a>
 			</div>
 
 			<div id="links">
 			<p style="text-align:right;">
-				<a class="link" rel="Projects" href="../../index.html#allProj" style= "text-decoration:none;">work</a>
+				<a class="link" rel="Projects" href="../../index.html#allProj" style= "text-decoration:none;">assignments</a>
 				&nbsp;&nbsp;&nbsp;
 
-				<a class="link" rel= "about me!" href= "../../about.html" style= "text-decoration:none;"> about</a>&nbsp;&nbsp;&nbsp;&nbsp;
-				<a class="link" target="_blank" rel= "Resume" href= "../../files/uxRes2021.pdf" style= "text-decoration:none;">resume</a></p>
+			</p>
 
 			
 
 			</div>
 	</div>
-	<br><br>
+	<br><br><br>
+
+	<div class="projHeader">
+		<h2>A4 - Subtractive Manufacturing</h2><br>
+		<img class="projImg" src="pics/wtf.png">
+		
+	</div>
 
 	<div class="projBody">
-		<h2>Ringly: A Product Analysis</h2>
-		<p class="myp" style="font-weight: bold; line-height: 16px">SPRING 2018</p>
-		<p class="myp" style="font-weight: bold;line-height: 16px">Introduction to Human-Computer Interaction, UC Davis</p>
-		<p class="myp" style="line-height: 16px;"><b>Tools:</b> Heuristic evaluation</p>
+		<p class="myp">For this assignment, I wanted to try out the CNC Mill to learn something new. After lecture, we headed to the MILL to try them out and we managed to get a test cut in! It was pretty fast.</p>
+		
 		<br>
-		<hr>
+		<h3>First Steps</h3>
 
-		<p class="myp">Ringly is a company that produces smart jewelry, more specifically smart bracelets and smart rings that actually look like real jewelry. 
+		<p class="myp">My first step was researching boxes and types of box joints online. I saw some really cool boxes, and I wanted to try out dovetail joints initially but I realized those joints were suited for thicker material. The FR1 boards were about 1.4mm thick, so I decided simple finger joints would be the route. Then I used Rhino to create the sides and joints of my box and a dog and bone design. 
+		</p>
+		
+		<br>
+		<h3>Rhino</h3>
+
+
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/model1.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/cho.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+
+		<p class="myp">
+			I created my Rhino design based on the size of the FR1 boards, ensuring that I would have enough board space of the sizes of my box walls. I decided on engraving a dog and bone because I love dogs, and they matched the dogbones concept. I also loosely based my dog design on my friend's dog, Cho Cho. I also made sure to differentiate my cuts from my engravings with different colors and layers in Rhino. 
 		</p>
 		<div class="pic">
-			<img src="pics/tech.png">
-		</div><br>
-		<h2>Features</h2>
-		<p class="myp">This smart ring is equipped with features to help the user stay connected to important activities and social media. Users can connect the smart ring to their mobile phone and connect with over 200 apps that alert users on a normal basis. The ring alerts users through different vibration settings and lights. For example, on the Ringly mobile app, suppose you choose Facebook and Instagram for alerts. You can set a unique vibration pattern or light flash to each app. This ring also allows users to monitor their health activity through number of steps taken, calories burned, and distance. 
-
-		</p><br>
-		<h2>Usability</h2>
-		<p class="myp">In order to determine whether a design is usable in UX, we must use a heuristic evaluation. One of the most important aspects of a usable design is the visibility of feedback, informs users about what is ocurring in the application. Ringly implements visbibility of feed back well. For example, once users receive a notification, the ring will notify the user though feedback of vibrations or flashing lights. One vibration could signify a text and two vibrations could signify another type of notification. This feedback lets the user know immediately that they probably received a text or social media notification depending on their settings. 
-		</p>
-		<p class="myp">As for finding a match between the system and the real world, the smart ring’s vibrations and light flashes are easy for the users to understand. In today’s world everyone is constantly surrounded by mobile devices, so vibrations and flashing lights on the smart ring are easy for users to understand.
-		</p>
-		<p class="myp">For user control and freedom, the ring itself does not employ much of either. The ring only serves as a device to alert users of any notifications and keep track of activity in the background. Users cannot change settings on the ring, so they can only do so through Ringly’s mobile app. Suppose a user is in the movie theatre, he or she has to user their phone and manually turn off their alerts. Thus, the smart ring itself does not have much control or freedom for the user.  
-		</p>
-		<P class="myp">Consistency and standards are not too evident in the smart ring. Other than the notion of vibrations and lights that are consistent with mobile devices to alert users, there is no need for consistency elsewhere in the ring. There is also no specific error prevention or help for users to recognize, discover, and recover from errors, or help and documentation that come from the ring. All the ring does is just alert and track.
-		</P>
-		<p class="myp">Ringly’s smart ring employs the concept of recognition over recall rather well. This is evident when the user sets notifications from certain apps as a unique vibration or unique light flash. For example, if the user sets two vibrations for a text message, when the ring vibrates twice, the user will recognize that the two vibrations represents a text message.
-		</p>
-		<p class="myp">As for flexibility and efficiency of use, it's nice that the ring notifies users seamlessly throughout the day, but I feel like the smart ring still isn't incredibly flexible and efficient just because users still have to deal with their notifications, change settings and look at their activities separately on their phone. The flashes of light are also only on the sides of the rings, so the user might not be able to see it in certain settings.
-		</p>
-		<p class="myp">The aesthetic and minimalist design is one of the merits of Ringly’s smart ring. Unlike normal wearable smart devices, the ring design is not centered on the technical aspects; it looks like an actual ring with a jewel. The colors and jewels would also complement looks and outfits well. One drawback of the ring is that it is too bulky because it has to incorporate all the hardware, as seen below. As a result, the size is impractical.
-		</p>
-		<div class="pic">
-			<img src="pics/use.png">
+			<img src="pics/model2Colors.png">
 		</div>
-		<p class="myp">As a whole, the merits of the design are the visibility of feedback, match between system and real world, recognition over recall, and aesthetics. The ring lacks user control and freedom, consistency and standards, error prevention, help for users to recognize, discover and recover from errors, and help and documentation. Overall, I feel that the design would work well for users who want to wear a smart device that looks like real jewelry and also do not have to time to check their mobile phone throughout the day. The smart ring will do a great job of notifying the user of what types of notifications they are getting without having to take out their phone and check. 
-		</p><br>
-		<h2>Final Thoughts</h2>
-		<p class="myp">Overall, Ringly’s smart ring still has drawbacks so I propose solutions to overcome these drawbacks. The first drawback is user control and freedom; users must go through the mobile app to change settings or turn off the device, and don't have much control of the device. I do think adding a screen to allow changes would defeat the purpose of having the smart ring look like an actual ring, so I feel that the smart ring should have buttons on the back or possibly touch sensors to allow users to change the settings or turn alerts off without using the mobile app in case they are in a more quiet setting.</p>
-		<p class="myp">Also the flashes of light are along the sides of the ring, so it may be hard for users to see in a bright setting since the lights are not facing them. Thus, removing the light flashing option and just having vibrations or adding a light beneath the gem would be more practical.
+
+		<br><br>
+		<h3>Dogbones</h3>
+		<p class="myp"> While finalizing my designs, I had to make sure my dog bones were on both pieces of adjacent joints. Initially I didn't have my dogbones on the protruding sides, but I put them in.</p>
+		<br>
+
+		<h3>Importing to KiCAD</h3>
+
+		<p class="myp">After I exported my Rhino files as DXFs, I imported my cut file to KiCAD, and they looked good. However, when I imported my engraving file, something went wrong. I got a weird error saying "Invalid Bezier Curve", and my dog didn't even show up properly. </p>
+
+		
+       				<div class="pic">
+						<img src="pics/kicadError.png">
+					</div>
+  					<br>
+       				<div class="pic">
+						<img src="pics/kicadErrorShape.png">
+					</div>
+
+
+					<br>
+
+		<p class="myp">
+		My bone was fine though. After some time, I figured out the shapes wouldn't show properly in KiCAD if I used the circle tool in Rhino and manipulated the shape into an ellipse or something organic, so I redrew my dog using the curve tool instead, and the engraving imported properly in KiCAD this time.
+		</p>
+		<div class="pic">
+						<img src="pics/onKicad.png">
+					</div>
+  					<br>
+  		<br>
+		<h3>Creating Gerber Files</h3>
+		<p class="myp">This portion was straightforward, thanks to Junchao's slide deck. I created my two Gerber files-- one for cutting and the other for engraving. 
 
 		</p>
-		<p class="myp">For the aesthetics of the design, I mentioned that the ring was a bit bulky, so if cutting down on unnecessary hardware like LED lights could reduce the size of the ring, the design would be less bulky and more practical for everyday wear.
 
+		<div class="pic">
+			<img src="pics/kicadPlot.png">
+		</div>
+  		<br>
+  		<br>
+		<h3>Setting up the CNC Mill</h3>
+
+		<div class="pic">
+						<img src="pics/setup.png">
+					</div>
+  					<br>
+		<p class="myp">I was ready to start using the mill so a few friends and I went to the MILL together for moral support and for safety. We plugged in the machine, put in the end bit, set the Z offset, and taped on the sacrificial layer. 
 		</p>
-		<p class="myp">As for consistency and standards, error prevention, help for users to recognize, discover and recover from errors, and help and documentation, I don't think it would be practical to employ all these concepts on a smart ring designed to look like a real jewelry piece. I feel that going through errors, preventing them, and acquiring help should be through the mobile app. 
-		</p><br><hr>
+
+		<p class="myp">I taped my board on for the cut, and I was a bit nervous at first because I only had 2 FR1 boards and I didn't want to mess up (shoutout to Jody for letting me use her extra boards later!)</p>
+
+		<br>
+		<h3>Bantam and Cutting</h3>
+		<p class="myp"> I made sure to measure the sacrificial layer and my cut layer before cutting so I could input the right dimensions into Bantam, ensuring the mill would cut and engrave at the right depth. Each layer was about 1.4mm. </p>
+
+		<div class="pic">
+			<img src="pics/measure.png">
+		</div>
+  		<br>
+
+		<p class="myp">
+		After double checking all the settings, I pressed "Mill All" and my god the sound that the mill makes from spinning at such a high speed was terrifying. I put my hand on the emergency stop button whenever mill was cutting, just in case something went wrong. Nothing went wrong though! 
+		</p>
+		<div class="pic">
+			<img src="pics/cut.png">
+		</div>
+  		<br>
+
+  		<p class="myp">My first round cuts and engravings went smoothly, so I was really happy about it. I cut another round for my other sides.</p>
+
+  		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/endCut.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/finalCuts.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+       	<br>
+
+
+		<p class="myp">However, things went wrong with my top and bottom sides. They cut too small, and the machine engraving some parts of it. I didn't have any engravings and Junchao and I couldn't figure out how to fix this error. At this point, I spent 5 hours at the MILL and was too tired to fix it, so I stuck with the sides of my box.
+		</p>
+		<br>
+		<h3>Putting the box together</h3>
+
+		<p class="myp">While putting my pieces together, I had to sand the joints because I didn't size the protruding pieces down in Rhino. I knew about this but I didn't want to change my file again. 
+		</p>
+		<br>
+		<h3>Final Box</h3>
+
+
+		<br>
+		<h3>Documentation</h3>
+		<a href="BoxRhinoAndDXF.zip">Rhino and DXF Files</a> | 
+		<a href="KiCADFiles.zip">KiCAD Folder</a>
+		<br><br>
+
+		<h3>Acknowledgment</h3>
+		<p class="myp">Shoutout to Vanessa Chien Lai, Petrina Chan, and Jody Laflen for the support throughout this assignment.</p>
+		<hr>
 	</div>
 </body>
 	<script>
