@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 5</title>
+
+	<meta charset="utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+   	<meta name="viewport" content="width=device-width">
+
+
+	<link rel="icon" href="../../pics/001-dog.png">
+	<link rel="stylesheet" type="text/css" href="../A1/A1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&family=Mochiy+Pop+P+One&family=Rubik:wght@300;600&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="../script.js" ></script>
+	<script src="https://use.fontawesome.com/ad999fa51e.js"></script>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+	<!--
+	<a style= "text-decoration:none;" href="../../port.html"><h1>ux research</h1></a>
+	
+	<div class = "menu">
+			<ul>
+				<a style= "text-decoration:none;" rel= "Home" href= "../../index.html"><li class= "button">home</li></a>
+				<a style= "text-decoration:none;" href= "../../about.html"><li>about</li class= "button"></a>
+				<a style= "text-decoration:none;" href= "../../dev.html"><li>development</li class= "button"></a>
+				<a style= "text-decoration:none;" href= "../../memes.html"><li>memes</li class= "button"></a>
+				
+			</ul>		
+	</div>
+	-->
+
+	<div id="top-bar">
+
+			<div id="nameDiv">
+			<a href="../../index.html" style= "text-decoration:none;"><h1 class="name">al</h1></a>
+			</div>
+
+			<div id="links">
+			<p style="text-align:right;">
+				<a class="link" rel="Projects" href="../../index.html#allProj" style= "text-decoration:none;">assignments</a>
+				&nbsp;&nbsp;&nbsp;
+
+				</p>
+
+			
+
+			</div>
+	</div>
+	<br><br>
+
+	<div class="projHeader">
+		<h2>A5 - Getting Meshy and Lamps</h2><br>
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/together.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/final.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+		
+	</div>
+	<br><br>
+	<div class="projBody">
+		
+
+		<h2>Part 1 - Mesh</h2>
+		<p class="myp">For the first part of the assignment, I decided to modify the mesh of two STLs from Thingiverse. First, I had to rewatch lecture to make sure I understood the mesh commands, and then I browsed Thingiverse. I wanted to do something related to Spongebob because it was my favorite show growing up, so I looked up Squidward’s House and Bold and Brash, downloaded the files and decided to make Bold and Brash figure stand on top of Squidward’s House. </p>
+
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/boldnbrash.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/squiddy.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+
+       	<div class="pic">
+			<img src="pics/separate.png">
+		</div>
+
+       <p class="myp">
+        I imported the STL files to Rhino and modified the orientation of each object so that they were upright. Once doing so, I placed Bold and Brash on top of Squidward’s House and used the <strong>MeshBooleanUnion</strong> command to make them into one closed mesh. It worked easily. 
+
+
+    	</p>
+    	<div class="pic">
+			<img src="pics/closedMesh.png">
+		</div>
+    	<br>
+
+    	<p class="myp">
+    		I actually tried printing it and it turned out super squished, so I realized there was something wrong with my calibration or Z offset. I tried leveling and releveling the bed but nothing seemed to work. My bed calibration tests came out inconsistent every time. I watched many videos and read blogs abour inconsistent Z prints, and I decided to follow a video about fixing Z axis binding on the Z rod. When I was taking out the Z-rod, I realized one of the screws that held the Z rod, was loose! Once I tightened that, all my problems with the Z-rod went away. 
+    	</p>
+
+
+    	<br><br>
+
+		<h2>Part 2 - Lamps</h2>
+	
+		<br>
+
+		<h3>Brainstorming</h3>
+
+		<p class="myp">I was so excited for this project! Mainly because I like looking at different types of lamps for fun. For example, I really like the Panthella Lamp by Louis Poulsen.  </p>
+		<div class="pic">
+			<img src="pics/panthella.png">
+		</div>
+
+		<p class="myp">
+		 I also thought back to my South Korea trip over the summer, and I remember seeing paper lamps in Insa-dong and thinking they were beautiful. These lamps are called‘Han-ji Lamps’ 한지 램프, han for korean and ji for paper. This type of papermaking is an ancient practice that is very involved. </p>
+		<br>
+	
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/hanji1.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/hanji2.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+
+		<p class="myp">Hanji lamps come in many different forms, and every part of the lamp (besides the lightbulb and electric elements) is made of hanji. </p>
+		<br>
+		
+		<p class="myp">My lamp is not a hanji lamp because it will be 3D printed; however, these lamps inspired my designs.</p>
+		<br>
+
+		<h3>Sketches</h3>
+
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/sketch1.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/sketch2.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+		<p class="myp">
+		I sketched some ideas for the lamp. I really wanted to have multiple flowers, but that meant I had to wire multiple lightbulbs together and I didnt' know how to do that. I liked the persimmon shape and the tulip shape ideas. 
+		</p>
+		<br>
+		<h3>Rhino</h3>
+
+		<div class="pic">
+			<img src="pics/lanternversions.png">
+		</div>
+		<p class="myp">
+		In Rhino, I tried modeling a few of those ideas. I started off with the tulip shape by creating a curve and revolving it 360 degrees. However, the tulip shape looked like a cup because the top edge was straight. 
+		</p>
+
+		<p class="myp">
+		Then I tried the persimmon shape by creating 5 hexagon curves, positioning them on the Y-axis accordingly, and using the "Loft" command to create a round 3D shape. I made the thickness of the lamp 0.4mm by using OffsetSrf because I felt that a thin width would allow enough light to pass through. It looked really good! I didn't have the correct measurements yet because I ordered a different light fixture instead of the one that was recommended in class.
+		</p>
+
+		
+       				<div class="pic">
+						<img src="pics/lanterLoft.png">
+					</div>
+
+       				<div class="pic">
+						<img src="pics/lantern.png">
+					</div>
+				
+
+		<h3>Test Print</h3>
+
+		<p class="myp">
+		To ensure the lantern shape turned out ok and let light through, I decided to print it. For the extra settings, I printed it with supports and with a spiralized outer contour to make sure there would be no support structures printed inside. After it printed, I tested the light and it looked really nice.
+		</p>
+
+		<div class="pic">
+			<img src="pics/IMG_6964.jpg">
+		</div>
+		<br><br>
+		<h3>More Modeling</h3>
+		<div class="pic">
+			<img src="pics/final2.png">
+		</div>
+		<p class="myp">
+		I decided to model more of my lamp structure, which includes the base, flower pot, and stems. The base is a cylinder with a few holes to fit the stems of flowers. The flower pot is a curve that was revolved, which hides the base structure. For the flower stems, I used the Sweep1 function to create squiggly tubes and cylinders, and I may have to print the stems in separate parts. 
+		</p>
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/base.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/pot.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/squigglyLoft.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/sweep1.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+
+
+		<h3>To Do</h3>
+		<p class="myp">
+		I still need to get the correct measurements of my light fixture once it arrives and scale my Rhino model accordingly. I also need to trim parts of the base to account for my electric cord.
+		</p>
+
+		<br>
+		<h3>Documentation</h3>
+		<a href="RhinoFiles.zip">Rhino Files</a> | 
+		<a href="https://www.thingiverse.com/thing:5444151">Squidward's House STL</a> |
+		<a href="https://www.thingiverse.com/thing:4892615">Bold and Brash STL</a>
+		<br><br>
+
+
+		<hr>
+		
+	
+	</div>
+
+
+	<script>
+		// scroll reveal for as many rows as you want!
+
+
+		//Get the button:
+		mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+
+
+
+
+	</script>
+</body>
+<footer style="text-align: center; padding: 50px">
+	<div id="icons">
+
+					<a target="_blank" title ="GitHub" href = "https://github.com/linannie"><i class="fa fa-spin fa-fw fa-lg fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a target="_blank" title="LinkedIn" href ="https://www.linkedin.com/in/annie-lin-77a030125"><i class="fa fa-fw fa-lg fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a title = "Email me!" href="mailto:annie.lin42@gmail.com?Subject=Hello%20again" target="_top"><i class="fa fa-fw fa-lg fa-envelope-o" aria-hidden="true"></i></a> 
+				<!--	<a target="_blank" title="My blog" href="https://linannie.wordpress.com/"><i class="fa fa-fw fa-lg fa-wordpress" aria-hidden="true"></i></a>-->
+				</div>
+	© Annie Lin 2021
+</footer>
+</html>
