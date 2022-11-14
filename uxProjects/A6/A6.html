@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 6</title>
+
+	<meta charset="utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+   	<meta name="viewport" content="width=device-width">
+
+
+	<link rel="icon" href="../../pics/001-dog.png">
+	<link rel="stylesheet" type="text/css" href="../A1/A1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&family=Mochiy+Pop+P+One&family=Rubik:wght@300;600&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="../script.js" ></script>
+	<script src="https://use.fontawesome.com/ad999fa51e.js"></script>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+	<!--
+	<a style= "text-decoration:none;" href="../../port.html"><h1>ux research</h1></a>
+	
+	<div class = "menu">
+			<ul>
+				<a style= "text-decoration:none;" rel= "Home" href= "../../index.html"><li class= "button">home</li></a>
+				<a style= "text-decoration:none;" href= "../../about.html"><li>about</li class= "button"></a>
+				<a style= "text-decoration:none;" href= "../../dev.html"><li>development</li class= "button"></a>
+				<a style= "text-decoration:none;" href= "../../memes.html"><li>memes</li class= "button"></a>
+				
+			</ul>		
+	</div>
+	-->
+
+	<div id="top-bar">
+
+			<div id="nameDiv">
+			<a href="../../index.html" style= "text-decoration:none;"><h1 class="name">al</h1></a>
+			</div>
+
+			<div id="links">
+			<p style="text-align:right;">
+				<a class="link" rel="Projects" href="../../index.html#allProj" style= "text-decoration:none;">assignments</a>
+				&nbsp;&nbsp;&nbsp;
+
+				</p>
+
+			
+
+			</div>
+	</div>
+	<br><br>
+
+	<div class="projHeader">
+		<h2>A6 - Lamps Part 2 and Molding & Casting Part 1</h2><br>
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/together.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/final.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+		
+	</div>
+	<br><br>
+	<div class="projBody">
+		
+
+		<h2>Lamps Part 2</h2>
+		<p class="myp">Here is my design from Lamp Part 1 last week. I made some changes to my design throughout the week due to print time and adhesion difficulties.</p>
+
+		<p class="myp">
+		I got my light fixture in the mail, so first I wanted to print out the lamp shade in the real size to make sure my light fixture and light bulb would fit. </p>
+
+		<p class="myp">
+		I resized my lampshade model to accommodate my light bulb innards, and printed it. The first print turned out so bad. I made the thickness of the walls 0.4mm and used the spiralized outer contour option in Cura; however, some of the walls messed up. I printed the lampshade again but tried to make it thicker. It was slightly better but the walls were still messed up similar to the previous print. </p>
+
+		<p class="myp">
+		Next, I needed to print the pot and base of my lamp, which was initially a circle shape. It was going to take about 17-20 hours to print, which I thought was ridiculous, so I sized down the pot and made it thinner. When I started printing it, the adhesion was not great and it messed up about 3 times. </p>
+
+		<p class="myp">
+		I decided to switch to a square shape because I felt that would be easier to adhere and have less of a chance of messing up. It worked great. I don’t think my prints have turned out so nice before.</p>
+
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/boldnbrash.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/squiddy.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+
+       	<div class="pic">
+			<img src="pics/separate.png">
+		</div>
+
+
+		<h2>Molding & Casting Part 1</h2>
+       <p class="myp">
+        For my molding and casting assignment, I had to wrap my head around the mold of mold concept first. Initially I thought we were creating a mold for the plaster, but no. We need to create a 3D master shape first, then create a mold to pour our silicone into later, then pour plaster into the silicone mold. So I not only had to create the 3D shape in Rhino first, then split them in half (positive side) for the two part mold, but also I had to put boxes around it to hold the silicone.
+
+
+    	</p>
+
+    	<h3>Shape</h3>
+    	<div class="pic">
+			<img src="pics/ClosedMesh.png">
+		</div>
+    	<br>
+
+    	<p class="myp">
+    		I decided to go with a dog head figure. I made it round so it would be easy to cast the figure. I created curves in Rhino, revolved them to get the head and hears, and I BooleanUnion-ed all the parts together, and I got this!
+    	</p>
+    	<div class="pic">
+			<img src="pics/squished.png">
+		</div>
+
+
+
+		
+
+		<p class="myp">I used DraftAngleAnalysis to see the blue and red ratio of the figure and it looked pretty good.  </p>
+		<div class="pic">
+			<img src="pics/panthella.png">
+		</div>
+
+		<h3>Mold Creation Process</h3>
+
+		<p class="myp">
+		Then I proceeded to create the molds for my shape in Rhino. I actually made a big mistake at first because I created the negatives for the figure, and I later realized I had to create the positives, so I could make the mold of a mold. To do this, I used my figure and Boolean Union-ed each half  with a rectangular prism like so. As for the keys, I did the same with spheres on one side, and on the other side, I used BooleanDifference to create a negative of the sphere. After, I created walls for the model so the silicone can easily sit in the mold of a mold. </p>
+		<br>
+
+		<h3>Printing the Mold</h3>
+		<p class="myp">
+			The mold printing went smoothly but for some reason, one of the layers was skipped so I filled it with glue.
+		</p>
+	
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/hanji1.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/hanji2.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+
+
+
+
+	
+				
+
+		<br>
+		<h3>Documentation</h3>
+		<a href="RhinoFiles.zip">Rhino Files</a> | 
+		<a href="https://www.thingiverse.com/thing:5444151">Squidward's House STL</a> |
+		<a href="https://www.thingiverse.com/thing:4892615">Bold and Brash STL</a>
+		<br><br>
+
+
+		<hr>
+		
+	
+	</div>
+
+
+	<script>
+		// scroll reveal for as many rows as you want!
+
+
+		//Get the button:
+		mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+
+
+
+
+	</script>
+</body>
+<footer style="text-align: center; padding: 50px">
+	<div id="icons">
+
+					<a target="_blank" title ="GitHub" href = "https://github.com/linannie"><i class="fa fa-spin fa-fw fa-lg fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a target="_blank" title="LinkedIn" href ="https://www.linkedin.com/in/annie-lin-77a030125"><i class="fa fa-fw fa-lg fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a title = "Email me!" href="mailto:annie.lin42@gmail.com?Subject=Hello%20again" target="_top"><i class="fa fa-fw fa-lg fa-envelope-o" aria-hidden="true"></i></a> 
+				<!--	<a target="_blank" title="My blog" href="https://linannie.wordpress.com/"><i class="fa fa-fw fa-lg fa-wordpress" aria-hidden="true"></i></a>-->
+				</div>
+	© Annie Lin 2021
+</footer>
+</html>
