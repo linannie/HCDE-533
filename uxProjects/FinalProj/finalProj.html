@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Final Project</title>
+
+	<meta charset="utf-8">
+   	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+   	<meta name="viewport" content="width=device-width">
+
+
+	<link rel="icon" href="../../pics/001-dog.png">
+	<link rel="stylesheet" type="text/css" href="../A1/A1.css">
+	<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Raleway&family=Mochiy+Pop+P+One&family=Rubik:wght@300;600&display=swap" rel="stylesheet">
+
+	<script type="text/javascript" src="../script.js" ></script>
+	<script src="https://use.fontawesome.com/ad999fa51e.js"></script>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+	<!--
+	<a style= "text-decoration:none;" href="../../port.html"><h1>ux research</h1></a>
+	
+	<div class = "menu">
+			<ul>
+				<a style= "text-decoration:none;" rel= "Home" href= "../../index.html"><li class= "button">home</li></a>
+				<a style= "text-decoration:none;" href= "../../about.html"><li>about</li class= "button"></a>
+				<a style= "text-decoration:none;" href= "../../dev.html"><li>development</li class= "button"></a>
+				<a style= "text-decoration:none;" href= "../../memes.html"><li>memes</li class= "button"></a>
+				
+			</ul>		
+	</div>
+	-->
+
+	<div id="top-bar">
+
+			<div id="nameDiv">
+			<a href="../../index.html" style= "text-decoration:none;"><h1 class="name">annie lin</h1></a>
+			</div>
+
+			<div id="links">
+			<p style="text-align:right;">
+				<a class="link" rel="Projects" href="../../index.html#allProj" style= "text-decoration:none;">assignments</a>
+				&nbsp;&nbsp;&nbsp;
+
+				</p>
+
+			
+
+			</div>
+	</div>
+	<br><br>
+
+	<div class="projHeader">
+		<h2>Final Project - Clock Decoration</h2><br>
+		
+		
+       				<div class="pic">
+						<img src="pics/final.png">
+					</div>
+
+       				<div class="pic">
+						<img src="pics/clock2.png">
+					</div>
+
+       	<h6>AKA why did I choose such a hard project</h6>
+	</div>
+	
+
+	<br><br>
+	<div class="projBody">
+		
+
+		<h2>Concept</h2>
+
+
+		<p class="myp">For my final project I made a clock decoration. Initially I was thinking aboutmaking the mechanical portion, but I decided to make it a wall decoration because I feel like I needed more time to make the weight and pendulum portion more accurate. To design the  clock decoration, I learned about gear ratios and compound gears, since the mechanism of the hour, minute, and second hand rotations depend on each other through gears.  </p> <br>
+
+
+			<b>Techniques Used:</b>
+			<ul>
+				<li>Laser cutting - gears, base frame, minute hand</li>
+				<li>Rhino - to model the gears and parts</li>
+				<li>Grasshopper - to model the gears through parametric design</li>
+				<li>3D printing - printed wall mounts and dowels</li>
+			</ul>
+		<br>
+		<b>The parts used to build the clock or decor:</b>
+
+		<ul>
+				<li>Gear Train</li>
+				<li>Escapement Mechanism</li>
+				<li>Weight + Pendulum</li>
+				<li>Base to attach everything to</li>
+				<li>Minute hand</li>
+				<li>Dowels</li>
+				<li>Wall mounts</li>
+				<li>Rubber bands, glue</li>
+			</ul>
+			<br><br>
+
+		<h2>Technical Implementation</h2>
+		<h3>Step 1 - Calculating Gear Ratios</h3>
+	
+		<p class="myp">
+
+			For the gear ratios, I used 60:1 gear ratio of the minute hand (1 full rotation for 60 minutes) and a 12:1 gear ratio for the hour (1 full rotation for 12 hours). In the end, I ended up just using the minute hand ratio and got rid of the hour hand. The 60:1 gear ratio is pretty big, so I broke up the ratio to 2:1, 5:1, and 6:1, and I left the 12:1 gear ratio as is. </p><br>
+
+		
+		<h3>Gear Train Possibilities</h3>
+
+		<p class="myp">
+		I developed 2 possible sketches depending on the 3D orientation of my clock/mechanism. (This sketch isn’t showing the final 3D orientation.) I would have 8 or 9 gears with teeth based on the gear ratios. In the first sketch, I have 9 gears because the minute and hour hand are separate. In the second sketch the minute and hour gears are co-axial and the total number of gears is 8. The sketches also show the number of teeth each gear would have.
+		</p>
+		<div class="pic">
+			<img src="pics/gearTrain.png">
+		</div><br><br>
+
+		<p class="myp">I chose the first option from my gear train designs in my project proposal
+
+		</p>
+
+		<h3>What I chose</h3>
+		<b>Front View</b>
+		<p class="myp">I chose the first option from my gear train designs in my project proposal because it was simpler.</p>
+		<div class="pic">
+			<img src="pics/figma2.png">
+		</div><br>
+
+		<p class="myp">I ended up focusing on the minute portion</p>
+		<div class="pic">
+			<img src="pics/figma.png">
+		</div>
+
+		<h3>Side View</h3>
+		<div class="pic">
+			<img src="pics/side.png">
+		</div>
+		<br><br>
+
+
+		<h3>Step 2 - Surveying Parts at Ace Hardware</h3>
+		<p class="myp">
+
+			Before I designed anything, I needed to look at a few parts so I could design my gears based on that. The part I was looking at was the axel for the gears, so I could make a hole in the gear design based on the diameter of the axel. I found a dowel about 3/8” in diameter that I decided to use on the center of my gears
+		</p>
+		<p class="myp"> I also got some scrap wood from the store, which I measured and used for my test cuts. The thickness was about 6.2mm.</p>
+
+		<table>
+       		<tr>
+       			<td>
+       				<div class="pic">
+						<img src="pics/wood2.png">
+					</div>
+       			</td>
+       			<td>
+       				<div class="pic">
+						<img src="pics/measure.png">
+					</div>
+				</td>
+       		</tr>
+       	</table>
+
+		<br>
+
+		<h3>Step 3 - Designing the gears in Rhino</h3>
+
+				<p class="myp">
+		For this step I accomplished:<br>
+
+		- Rhino modeling ✅<br>
+		- Grasshopper parametric design ✅</p>
+
+	<div class="pic">
+			<img src="pics/gearPart.png">
+		</div>
+		
+		<p class="myp">For this part, I had to understand the parts of a gear like the pitch and base diameter. Luckily there were a few plugins that I found on Google that I could use with Rhino to help me model my gears (but I had to model the escapement gear and small gears myself). I downloaded a Python a plugin <b>geargen</b> to design my gears. It took inputs such as the Base Diameter and number of teeth to create a 2D curve of my gear, and this gave me an output of the outline of a gear. 
+			</p>
+
+			<div class="pic">
+			<img src="pics/plugin.png">
+		</div><br><br>
+
+		<p class="myp">
+
+		I had to cut out the center for the dowel, and cut out parts of the shape so it wouldn’t be completely solid. Using the plugin I designed gears B, D, and F.</p>
+
+		<div class="pic">
+			<img src="pics/gearRhino.png">
+		</div><br>
+
+		<h4>Parametric Design</h4>
+		<p class="myp">Unfortunately, the plugin I used had a minimum input for the number (17 teeth) of teeth on a gear, and the smallest gear from my design had 9 teeth, so I decided to model it myself. I created a curve shape that looked like a tooth on a gear. Using grasshopper, I revolved the curve around a Base Diameter, I bake the circle and the revolved curves and Boolean Unioned to create a gear shape. Similarly, I did this for the escapement gear except the teeth were triangles.</p> <br>
+
+	
+       				<div class="pic">
+						<img src="pics/GH.png">
+					</div>
+       	<br>
+       				<div class="pic">
+						<img src="pics/GH2.png">
+					</div>
+	
+					<p class="myp">
+
+		For the escapement gear, I used the Grasshopper similarly but used a triangular curve to make the teeth.</p>
+
+		<div class="pic">
+			<img src="pics/escape.png">
+		</div><br>
+		<p class="myp">Final Designs</p>
+		<div class="pic">
+						<img src="pics/gearss.png">
+					</div>
+
+
+					<br><br>
+
+		<h3>Step 4 - Fabricating</h3>
+
+				<p class="myp">
+		For this step I accomplished <br>
+
+		- Laser Cutting ✅ <br>
+		- 3D Printing ✅</p>
+		<p class="myp">
+		My next step was laser cutting the gears. I went to the MILL before Thanksgiving to do some test cuts and I ended up with a few gears. I realized I calculated a gear to be the wrong ratio, so I had to go back to the MILL later to cut some more gears. </p>
+
+		<div class="pic">
+			<img src="pics/laserCut.png">
+		</div><br>
+		<div class="pic">
+			<img src="pics/testCut.png">
+		</div>
+		<br><br>
+		<b>Gear Pieces</b>
+		<p class="myp">Here are all my pieces that I laser cut for the gear train and escapement mechanism.</p>
+		<div class="pic">
+			<img src="pics/pieces.png">
+		</div>
+
+		<br><br>
+
+		<b>Dowels </b>
+		<p class="myp">
+		I went back to the hardware store to test the dowels and I found the aluminum dowel that fit my gears!</p>
+
+		<div class="pic">
+			<img src="pics/dowelCheck.png">
+		</div>
+		<p class="myp">
+		 However, they were sold out of the wooden dowel in the size I wanted, so I decided to 3D print my own. My 3D printed dowels were 3/8” in diameter and 7cm long. </p>
+		 <div class="pic">
+			<img src="pics/dowel.png">
+		</div>
+
+
+
+
+		<br><br>
+		<h3>Step 5 - Designing a Mounting System</h3>
+		<p class="myp">
+			
+
+		After I cut all the gears out and printed the dowels, I had to assemble everything together somehow. I hadn’t planned out a base frame at this point, so I sketched a few ideas. I knew I had to attach the dowels to the same plane so the gears that touched would be in the right spot. I laid paper down and traced the placement of each dowel based on the correct orientation of the gear train I wanted and measured the distance in between each dowel.  (I’m sure there are ways to calculate the distance between gears, but I didn’t feel like doing math.) The distance between the axels were: 33mm, 71mm, and 90mm.</p>
+
+
+		 <div class="pic">
+			<img src="pics/measure2.png">
+		</div>
+		 <div class="pic"><br>
+			<img src="pics/frame.png">
+		</div>
+
+		<p class="myp">
+		I went back to the MILL to cut a base rectangle to attach my dowels to and I designed a wall mount for my dowels, which I ended up 3D printing. </p>
+
+		 <div class="pic">
+			<img src="pics/mount.png">
+		</div>
+
+		<p class="myp">
+		<span style="color: red"><b>Problem 1:</b></span> I realized a few of my gears (escapement and hour gear train)would actually coincide with the dowels. I could’ve made a bigger escapement wheel or a different ratios.</p>
+		 <div class="pic">
+			<img src="pics/error.png">
+		</div>
+
+		<p class="myp">
+		<b>Fix:</b> Based on this and how much time I had left, I decided to get rid of the hour gear train completely and orient the escapement wheel differently than I had planned.
+
+		</p> <br>
+
+
+		<h3>Step 6 - Assembly and Troubleshooting</h3>
+
+		<p class="myp">Here’s the part that took me the most time!</p>
+
+		 <div class="pic">
+			<img src="pics/allPieces.png">
+		</div>
+
+		<h4>Glueing</h4>
+		<p class="myp">
+		First I glued the gears to the dowels so they would be secure and not spin freely. I put the gears in place on my base frame and tested the wall mounts. Right away there were a few problems. </p>
+
+		<p class="myp">
+		<span style="color: red"><b>Problem 2:</b></span> I didn’t account for the weights of the gears, so some of the gears drooped while they were in the mounts.</p>
+		 <div class="pic">
+			<img src="pics/wall1.png">
+		</div> 
+
+		<p class="myp">
+		<b>Fix:</b> Double up on wall mounts. I added another wall mount on top of the first one, so it would alleviate the drooping.</p>
+
+		<p class="myp">
+		<span style="color: red"><b>Problem 3:</b></span> While manual turning the gears, I noticed some of the gears were shifting back and forth and wobbling. </p>
+
+		 <div class="pic">
+			<img src="pics/rubber.png">
+		</div> 
+
+		<p class="myp">
+		<b>Fix:</b> I used rubber bands to stop the shifting and made sure there was adequate spacing in between gears so they wouldn't have too much friction. </p>
+
+		<br><br>
+		<b>Everything put together</b><br>
+		<p class="myp">Here is what the clock decoration looks like after everything is attached and glued properly</p>
+
+		 <div class="pic">
+			<img src="pics/finalOrient.png">
+		</div> 
+		<br><br>
+		
+
+		<h2>Final Result</h2>
+		<p class="myp">Here is the final wall decoration I created! It's a pretty cool wall piece, and if you move it manually, you can still see the gears move with each other. The timekeeping portion didn't work out so I ended up with a cool wall decoration, which didn't deviate too much from the original design.</p>
+
+		<div class="pic">
+			<img src="pics/final.png">
+		</div> 
+		<br>
+		<div class="pic">
+			<img src="pics/giphy.gif">
+		</div>
+		<br><br>
+
+		<h3>Extra Step I Tried - Weight and Pendulum</h3>
+		<p class="myp">This was the portion where I decided to get rid of the automatic timekeeping portion completely because I didn't have enough time to calculate the length and weight used. I still tried out an arbitraty numbers for the weight and pendulum but found out I had too much fricition between the teeth of my gears. I used a bag of rice as the weight and laser cut the pendulum peices (glued them together)</p>
+
+		<div class="pic">
+			<img src="pics/weight.png">
+		</div> 
+		<div class="pic">
+			<img src="pics/pend.png">
+		</div> 
+
+		<p class="myp">I tested the weight on the escapement gear, which worked well. </p>
+
+		<!-- gif of thing-->
+
+		<div class="pic">
+			<img src="pics/weight2.png">
+		</div> 
+
+		<p class="myp">
+		However, when I put the weight on the final gear train, my gears had too much friction with each other, so even with the weight, the escapement mechanism wouldn't run smoothly. If I had to fabricate the gears again, I would 3D print the gear train because PLA filament would likely produce less friction. </p><br><br>
+
+		<h2>Bill of Materials</h2>
+		<p class="myp">
+
+			<b>Plywood:</b> $18 | The MILL<br>
+			<b>String:</b> Free | Home <br> 
+			<b>Weight (flour):</b> Free | Home <br>
+			<b>Glue</b> Free | Home <br>
+			<b>Rubber Bands</b> $1.75 | Daiso<br>
+			<span style="color:red;"><b>Total:</b></span> $1
+
+		</p><br>
+
+		
+				
+		<br>
+		<h3>Documentation</h3>
+		<p class="myp">
+		<a href="Gears.3dm">Rhino Files</a> | 
+		<a href="https://www.youtube.com/watch?v=fIjnFIwPmIE">How escapement mechanisms work.</a>  <br>
+		<a href="https://www.youtube.com/watch?v=AdOY1VqsJLI&t=261s">Compound Gear Trains</a>  <br>
+		<a href="https://www.youtube.com/watch?v=aGHrhm-Rcp0&t=246s">Gear Train Design</a>  <br>
+		<a href="https://www.youtube.com/watch?v=rvU37Aho4FA&t=23s">Building a Wooden Clock</a> <br>
+		<a href="https://noah.org/science/clock/">Some notes on a clock design</a> 
+		<a href="https://www.food4rhino.com/en/resource/gearfromcircle-geargen">GearGen Plugin</a> 
+	</p>
+
+		<br>
+		<h3>Acknowledgement</h3>
+		<p class="myp">Special thanks to Vanessa Chien Lai and Jalia Evans for the support throughout this project. Thanks to Minah Kim and Sherry Wang for being laser cutting buddies at the MILL. Thanks to my Dad and Rory McCaffrey for their thoughts and ideas on my troubleshooting. </p>
+
+
+		<hr>
+		
+	
+	</div>
+
+
+	<script>
+		// scroll reveal for as many rows as you want!
+
+
+		//Get the button:
+		mybutton = document.getElementById("myBtn");
+
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    mybutton.style.display = "block";
+		  } else {
+		    mybutton.style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0; // For Safari
+		  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		}
+
+
+
+
+	</script>
+</body>
+<footer style="text-align: center; padding: 50px">
+	<div id="icons">
+
+					<a target="_blank" title ="GitHub" href = "https://github.com/linannie"><i class="fa fa-spin fa-fw fa-lg fa-github" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a target="_blank" title="LinkedIn" href ="https://www.linkedin.com/in/annie-lin-77a030125"><i class="fa fa-fw fa-lg fa-linkedin-square" aria-hidden="true"></i></a>&nbsp;&nbsp;&nbsp;
+					<a title = "Email me!" href="mailto:annie.lin42@gmail.com?Subject=Hello%20again" target="_top"><i class="fa fa-fw fa-lg fa-envelope-o" aria-hidden="true"></i></a> 
+				<!--	<a target="_blank" title="My blog" href="https://linannie.wordpress.com/"><i class="fa fa-fw fa-lg fa-wordpress" aria-hidden="true"></i></a>-->
+				</div>
+	© Annie Lin 2021
+</footer>
+</html>
