@@ -172,7 +172,7 @@
 			<img src="pics/gearPart.png">
 		</div>
 		
-		<p class="myp">For this part, I had to understand the parts of a gear like the pitch and base diameter. Luckily there were a few plugins that I found on Google that I could use with Rhino to help me model my gears (but I had to model the escapement gear and small gears myself). I downloaded a Python a plugin <b>geargen</b> to design my gears. It took inputs such as the Base Diameter and number of teeth to create a 2D curve of my gear, and this gave me an output of the outline of a gear. 
+		<p class="myp">For this part, I had to understand the parts of a gear like the pitch and base diameter. Luckily there were a few plugins that I found on Google that I could use with Rhino to help me model my gears (but I had to model the escapement gear and small gears myself). I downloaded a Python a plugin <b>GearGen</b> to design my gears. It took inputs such as the Base Diameter and number of teeth to create a 2D curve of my gear, and this gave me an output of the outline of a gear. 
 			</p>
 
 			<div class="pic">
@@ -188,7 +188,7 @@
 		</div><br>
 
 		<h4>Parametric Design</h4>
-		<p class="myp">Unfortunately, the plugin I used had a minimum input for the number (17 teeth) of teeth on a gear, and the smallest gear from my design had 9 teeth, so I decided to model it myself. I created a curve shape that looked like a tooth on a gear. Using grasshopper, I revolved the curve around a Base Diameter, I bake the circle and the revolved curves and Boolean Unioned to create a gear shape. Similarly, I did this for the escapement gear except the teeth were triangles.</p> <br>
+		<p class="myp">Unfortunately, the plugin I used had a minimum input for the number (17 teeth) of teeth on a gear, and the smallest gear from my design had 9 teeth, so I decided to model it myself. I created a curve shape that looked like a tooth on a gear. Using grasshopper, I revolved the curve around a Base Diameter, I bake the circle and the revolved curves and Boolean Unioned to create a gear shape. Similarly, I did this for the escapement gear except the teeth were triangles at a 20 degree angle to the circle.</p> <br>
 
 	
        				<div class="pic">
@@ -232,7 +232,7 @@
 		</div>
 		<br><br>
 		<b>Gear Pieces</b>
-		<p class="myp">Here are all my pieces that I laser cut for the gear train and escapement mechanism.</p>
+		<p class="myp">Here are all my pieces that I laser cut for the gear train and escapement mechanism. The settings I used for the laser cutter were <b>2 speed, 100 power, 10 frequency</b>.</p>
 		<div class="pic">
 			<img src="pics/pieces.png">
 		</div>
@@ -271,14 +271,14 @@
 		</div>
 
 		<p class="myp">
-		I went back to the MILL to cut a base rectangle to attach my dowels to and I designed a wall mount for my dowels, which I ended up 3D printing. </p>
+		I went back to the MILL to cut a base rectangle to attach my dowels to and I designed a wall mount for my dowels, which I ended up 3D printing. These wall mounts consisted of 3 rectangual prisms attached to each other with a circle cut-out to fit the dowels. Appropriate spacing is used to allow for the dowel.</p>
 
 		 <div class="pic">
 			<img src="pics/mount.png">
 		</div>
 
 		<p class="myp">
-		<span style="color: red"><b>Problem 1:</b></span> I realized a few of my gears (escapement and hour gear train)would actually coincide with the dowels. I could’ve made a bigger escapement wheel or a different ratios.</p>
+		<span style="color: red"><b>Problem 1:</b></span> I realized a few of my gears (escapement and hour gear train) would actually coincide with the dowels. I could’ve made a bigger escapement wheel or a different ratios.</p>
 		 <div class="pic">
 			<img src="pics/error.png">
 		</div>
@@ -299,7 +299,7 @@
 
 		<h4>Gluing</h4>
 		<p class="myp">
-		First I glued the gears to the dowels so they would be secure and not spin freely. I put the gears in place on my base frame and tested the wall mounts. Right away there were a few problems. </p>
+		First I glued the gears to the dowels so they would be secure and not spin freely. I put the gears in place on my base frame and tested their turning and tested wall mounts. Right away there were a few problems. </p>
 
 		<p class="myp">
 		<span style="color: red"><b>Problem 2:</b></span> I didn’t account for the weights of the gears, so some of the gears drooped while they were in the mounts.</p>
@@ -308,10 +308,10 @@
 		</div> 
 
 		<p class="myp">
-		<b>Fix:</b> Double up on wall mounts. I added another wall mount on top of the first one, so it would alleviate the drooping.</p>
+		<b>Fix:</b> Double up on wall mounts where I added another wall mount on top of the first one, so it would alleviate the drooping and add more stability to the axels.</p>
 
 		<p class="myp">
-		<span style="color: red"><b>Problem 3:</b></span> While manual turning the gears, I noticed some of the gears were shifting back and forth and wobbling. </p>
+		<span style="color: red"><b>Problem 3:</b></span> While manually turning the gears, I noticed some of the gears were shifting back and forth and wobbling. </p>
 
 		 <div class="pic">
 			<img src="pics/rubber.png">
@@ -335,7 +335,7 @@
 		
 
 		<h2>Final Result</h2>
-		<p class="myp">Here is the final wall decoration I created! It's a pretty cool wall piece, and if you move it manually, you can still see the gears move with each other. The timekeeping portion didn't work out so I ended up with a cool wall decoration, which didn't deviate too much from the original design.</p>
+		<p class="myp">Here is the final wall decoration I created! It's a pretty cool wall piece, and if you move it manually, you can still see the gears move with each other. The timekeeping portion didn't work out because the teeth had too much friction when they turned, so I ended up with a cool wall decoration, which didn't deviate too much from the original design. To make a clock that turns better, I would suggest cutting thicker wood with some type of saw or using plastic material to create gears with less friction. </p>
 
 		<div class="pic">
 			<img src="pics/final.png">
